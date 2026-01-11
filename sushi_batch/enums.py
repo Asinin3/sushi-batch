@@ -2,7 +2,7 @@ from enum import Enum
 
 
 class Formats(Enum):
-    AUDIO = (".aac", ".ac3". ".eac3", ".flac", ".m4a", ".mp3", ".ogg", ".opus", ".pcm", ".wav")
+    AUDIO = (".aac", ".ac3", ".eac3", ".flac", ".m4a", ".mp3", ".ogg", ".opus", ".pcm", ".wav")
     VIDEO = (".avi", ".mp4", ".mkv", ".webm")
     SUBTITLE = (".ass", ".ssa", ".srt")
 
